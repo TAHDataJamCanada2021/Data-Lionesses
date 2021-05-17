@@ -7,30 +7,32 @@ _Each topic would have a separate repository. This would include the following:_
 ## 1. Problem Statement
 
 _A description of an issue to be addressed._
-Transport of victims is a major component of human trafficking. There is a lack of user-friendly reporting systems in place for those working in the transportation industry who are likely to see trafficking activity (and lack of methods to identify common trafficking routes?).
+Transport of victims is a major component of human trafficking. According to [Human-Trafficking Corridors in Canada by The Canadian Centre to End Human Trafficking], moving victims routinely aids traffickers from being detected by law enforcement and disorients victims and impedes them from seeking help. There is a lack of user-friendly reporting systems in place for those working in the transportation industry who are likely to see trafficking activity and a lack of methods to identify common trafficking routes. For example Uber which has an emergency alert system for passengers but not for drivers; drivers must rely on hotlines to report incidents. This is not ideal and verba information is easily lost.
 
 ## 2. Objective
 
 _Objective of the solutions (the challenge, problem or need that it contributes to solve)._
-A reporting system for drivers of transportation companies (ride-sharing apps?). Drivers are sent notifications to report suspicious activity when they are identified to drop off or pick up riders in high risk regions and along high risk routes with particular attention to indigenous communities. The system will be pitched to the police …
+Domestic trafficking via ground transport is a serious problem in Canada. Our objective is therefore to propose a framework to facilitate reporting of trafficking suspicions by drivers. Collections of reports can then be used to gain insights on high-risk areas and routes for trafficking, aiding law enforment to catch perpetrators. 
 
 ## 3. Solution/Data use case description
 
 _A comprehensive description of the data-based solution or/and data use case._
-Components of TRACKS
+TRACKS: A Trafficking Reporting and Compilation frameworK System
 
-TRACKS makes use of factors which indicate vulnerability to trafficking to identify high risk regions. We train a model with existing trafficking data as ground truth. 
-{describe model}
+TRACKS has three components:
+1. Using factors which indicate vulnerability to trafficking (poverty, indigenous population, unemployment and education level) together with existing trafficking data as ground truth, we identify regions with higher risk of trafficking activity {ADD ABT MODEL!!}
+2. We use the geolocation data of the driver to identify their trip's region(s). If they are detected to be in a high risk region, a notification is sent to them to report trafficking suspicions via a short form based on UNODC indicators of trafficking. 
+3. Data from the form such as location and date/timestamps is anonymized, collected and analyzed in order to refine our prediction algorithm. Our aim is to collaborate with law enforcement so this data can be used to identify trafficking cases. There is limited data which can be used to identify trafficking routes, and this framework provides a means to collect data useful for this purpose.
 
-A trip with a rating above a certain threshold is flagged. This sends a notification to a driver or clerks of vehicle rental companies to report trafficking suspicions when they are travelling to and from high risk areas. Notification directs them to a reporting form. This framework collects reports and corresponding locations of drivers to analyze over time to identify high risk or trafficking routes and also to refine the data which leads to more accurate reporting.
+The framework is versatile and can be applied to different provinces or for interprovincial anti-trafficking initiatives by using different datasets to train the model. Ride-sharing services such as Uber are popular in other countries in addition to Canada, and our the framework can be applied internationally to promote reporting of trafficking suspicions among transportation companies. By modifying aspects such as factors indicating vulnerability to trafficking and training data, the framework can better reflect the needs of other countries. 
 
-The framework is versatile, can be applied to different provinces or interprovincial anti-trafficking initiatives.
+Our solution can be a stand-alone app or it can be integrated into existing apps. An advantage of having a stand-alone app is that we do not need to ask a private company for access to location data.
 
-The framework can be it’s own app or integrated into existing apps. For example Uber which has an emergency alert system for passengers but not drivers. If it is a separate app, location data can be collected and we do not need to ask a private company for access to private data.
+In this proof of concept, we used data for regions in Ontario for which data on incidents of trafficking is available, and focused only on these select regions. Data on the factors (poverty, indigenous population, unemployment and education level) and trafficking is available for other Canadian regions. A direction for future work is to train our model with a larger dataset including these regions. The trained model can then be applied to other regions for which trafficking data is not available. In addition, origin-destination data for Uber trips is publicly available for Toronto (and other international cities), and by procesing this data we can extend our use case testing.
 
 ## 4. Pitch
 
-_A pitch of maximum 4 minutes._
+_A pitch of maximum 4 minutes._d
 
 Hint: Recommended is to add here just link(s), for example to Youtube recording:
 
