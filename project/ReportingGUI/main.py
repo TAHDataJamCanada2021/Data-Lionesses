@@ -5,9 +5,11 @@ from os.path import expanduser
 from dicttoxml import dicttoxml
 from xml.dom.minidom import parseString
 
+# Path to user folder
 home = expanduser("~")
 
 
+# Screen manager and screen classes
 class Manager(ScreenManager):
     reportData = {}
 
@@ -39,7 +41,7 @@ class SituationScreen(Screen):
 class FinalScreen(Screen):
     pass
 
-
+# Kivy framework starts here
 root_widget = Builder.load_string('''
 Manager:
     FirstScreen:
@@ -117,7 +119,7 @@ Manager:
         CheckBox
             id: cp2_1
         Label:
-            text: 'Did they exhibit controlling behaviour?'
+            text: 'Did they exhibit controlling behaviour such as not letting the victim speak for themselves?'
         CheckBox
             id: cp2_2
         Label:
@@ -160,6 +162,10 @@ Manager:
             text: 'Were they underdressed for the weather, seemed to have few and/or shabby possessions?'
         CheckBox
             id: cv_4
+        Label:
+            text: 'Were they nervous and possibly unable to make eye contact?'
+        CheckBox
+            id: cv_5
         Button
             id: bv_cn
             text: 'Confirm'
@@ -169,6 +175,7 @@ Manager:
                 if cv_2.state:root.manager.reportData['Victim'].append('emotional distress')
                 if cv_3.state:root.manager.reportData['Victim'].append('malnourished and/or tired')
                 if cv_4.state:root.manager.reportData['Victim'].append('looks impoverished')
+                if cv_5.state:root.manager.reportData['Victim'].append('no eye contact')
                 app.root.current = 'situation'
         Button
             id: bv_bk
@@ -193,6 +200,10 @@ Manager:
             text: 'The drop off location is near a hotel, truck stop, or airport'
         CheckBox
             id: cs_3
+        Label:
+            text: 'Did you ask and were they unable to provide you with ID?'
+        CheckBox
+            id: cs_4    
         Button
             id: bs_cn
             text: 'Confirm'
@@ -200,7 +211,8 @@ Manager:
                 root.manager.reportData['Situation'] = []
                 if cs_1.state:root.manager.reportData['Situation'].append('cash payment')
                 if cs_2.state:root.manager.reportData['Situation'].append('hidden entrance')
-                if cs_3.state:root.manager.reportData['Situation'].append('near transit hub') 
+                if cs_3.state:root.manager.reportData['Situation'].append('near transit hub')
+                if cs_4.state:root.manager.reportData['Situation'].append('no ID') 
                 app.root.current = 'final'
         Button
             id: bs_bk
@@ -246,14 +258,15 @@ Manager:
 
 
 class Report(App):
+    """The front end of TRACKS framework, built using Kivy framework"""
     rData = None
 
     def build(self):
         return root_widget
 
+    # Save to XML
     def save(self,mydata):
-        # custom function for defining
-        # item names
+        # list items maintain their structure in xml file
         my_item_func = lambda x: 'item'
         xmldat = dicttoxml(mydata, item_func=my_item_func)
         xmlfl= open(home + '/report.xml', 'w')
@@ -264,9 +277,4 @@ class Report(App):
 
 
 Report().run()
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
 
