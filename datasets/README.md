@@ -2,7 +2,7 @@
 
 **Preprocessed Data**: Contains cleaned data used by ML model for identifying high risk regions.
 
-**Other Data**: Contains sets of data extracted from sources used for visualizations and analysis, with added variable columns and data used in calculation of variables. See readme in Other Data folder for details. 
+**Other Data**: Contains sets of data extracted from sources used for visualizations and analysis, with added variable columns and data used in calculation of variables. See readme in Other Data folder for details. These files are intermediate to files in the Preprocessed Data folder. 
 
 2016 Canada Census data is used here. Data was downloaded from the official site and relevant variables were extracted for regions of interest. Data was cleaned and formatted before using for modeling. The hierarchy of regions (e.g. Census subdivision, Census metropolitan areas) for which data is available varies among the datasets and therefore it was a challenge to find datasets with a matching system of regions for comparison. In certain cases, information for some regions was missing.
 
