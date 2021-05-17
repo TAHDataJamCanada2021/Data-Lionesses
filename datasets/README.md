@@ -1,10 +1,12 @@
 # Datasets
 
-**Detailed Data**: Contains full sets of data extracted from sources used for visualizations and analysis.
-
 **Preprocessed Data**: Contains cleaned data used by ML model for identifying high risk regions.
 
-2016 Canada Census data is used here. Sources:
+**Other Data**: Contains sets of data extracted from sources used for visualizations and analysis, with added variable columns and data used in calculation of variables. See readme in Other Data folder for details. 
+
+2016 Canada Census data is used here. Data was downloaded from the official site and relevant variables were extracted for regions of interest. Data was cleaned and formatted before using for modeling. The hierarchy of regions (e.g. Census subdivision, Census metropolitan areas) for which data is available varies among the datasets and therefore it was a challenge to find datasets with a matching system of regions for comparison. In certain cases, information for some regions was missing.
+
+**Sources**:
 
 Human Trafficking Incidents and Sexual Exploitation Incidents: 
 [Statistics Canada. Table 35-10-0177-01  Incident-based crime statistics, by detailed violations, Canada, provinces, territories and Census Metropolitan Areas](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510017701)
