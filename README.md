@@ -6,7 +6,7 @@ Transport of victims is a major component of human trafficking. According to [Hu
 
 ## 2. Objective
 
-Domestic trafficking via ground transport is a serious problem in Canada. Our objective is therefore to propose a framework to facilitate reporting of trafficking suspicions by drivers. Collections of reports can then be used to gain insights on high-risk areas and routes for trafficking, aiding law enforment to catch perpetrators. 
+Domestic trafficking via ground transport is a serious problem in Canada. Our objective is therefore to propose a framework to facilitate reporting of trafficking suspicions by drivers. Collections of reports can then be used to gain insights on high-risk areas and routes for trafficking, aiding law enforcement to catch perpetrators. 
 
 ## 3. Solution/Data use case description
 
