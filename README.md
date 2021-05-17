@@ -1,22 +1,15 @@
 # DataJam Canada 2021 - _**TRACKS: A Trafficking Reporting and Compilation frameworK System:**_
 
-<span style="color:blue">_This is a repository for research projects in the human trafficking domain. It includes all future related project ideas or research topics that would be useful for our project._
-
-_Each topic would have a separate repository. This would include the following:_</span>
-
 ## 1. Problem Statement
 
-_A description of an issue to be addressed._
 Transport of victims is a major component of human trafficking. According to [Human-Trafficking Corridors in Canada by The Canadian Centre to End Human Trafficking](https://www.canadiancentretoendhumantrafficking.ca/wp-content/uploads/2021/02/Human-Trafficking-Corridors-in-Canada-Report.pdf), moving victims routinely aids traffickers from being detected by law enforcement and disorients victims and impedes them from seeking help. There is a lack of user-friendly reporting systems in place for those working in the transportation industry who are likely to see trafficking activity and a lack of methods to identify common trafficking routes. For example Uber which has an emergency alert system for passengers but not for drivers; drivers must rely on hotlines to report incidents. This is not ideal and verba information is easily lost.
 
 ## 2. Objective
 
-_Objective of the solutions (the challenge, problem or need that it contributes to solve)._
 Domestic trafficking via ground transport is a serious problem in Canada. Our objective is therefore to propose a framework to facilitate reporting of trafficking suspicions by drivers. Collections of reports can then be used to gain insights on high-risk areas and routes for trafficking, aiding law enforment to catch perpetrators. 
 
 ## 3. Solution/Data use case description
 
-_A comprehensive description of the data-based solution or/and data use case._
 TRACKS: A Trafficking Reporting and Compilation frameworK System
 
 TRACKS has three components:
@@ -54,7 +47,7 @@ This would include:
 - Statements on data quality issues, transformations needed
 - Container for new data generated for this research (i.e. through merging other data sets)
 
-2016 Canada Census data is used here. Data was downloaded from the official site and relevant variables were extracted for regions of interest. Data was cleaned and formatted before using for modeling.
+2016 Canada Census data is used here. Data was downloaded from the official site and relevant variables were extracted for regions of interest. Data was cleaned and formatted before using for modeling. The hierarchy of regions (e.g. Census subdivision, Census metropolitan areas) for which data is available varies among the datasets and therefore it was a challenge to find datasets with a matching system of regions for comparison. In certain cases, information for some regions was missing.
 **Sources**:
 
 Human Trafficking Incidents and Sexual Exploitation Incidents: 
