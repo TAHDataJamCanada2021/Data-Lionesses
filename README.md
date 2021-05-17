@@ -54,7 +54,8 @@ This would include:
 - Statements on data quality issues, transformations needed
 - Container for new data generated for this research (i.e. through merging other data sets)
 
-2016 Canada Census data is used here. Sources:
+2016 Canada Census data is used here. Data was downloaded from the official site and relevant variables were extracted for regions of interest. Data was cleaned and formatted before using for modeling.
+**Sources**:
 
 Human Trafficking Incidents and Sexual Exploitation Incidents: 
 [Statistics Canada. Table 35-10-0177-01  Incident-based crime statistics, by detailed violations, Canada, provinces, territories and Census Metropolitan Areas](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3510017701)
