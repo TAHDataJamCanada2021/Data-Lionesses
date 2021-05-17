@@ -1,12 +1,12 @@
-## **Data Preprocessing:**
+# Data Preprocessing:
 
 For all of the datasets, we extracted Ontario regions based on the Human Trafficking dataset regions as it had the least number of regions and also we removed the features where the whole row or column was empty. Footnotes and extra information were deleted as well. Please see below for detailed processing in each dataset:
 
-##CLEANhumantrafficking and CLEANaboriginal: 
+## CLEANhumantrafficking and CLEANaboriginal: 
 
 St. Catharines-Niagara & Kitchener-Cambridge-Waterloo split up and data copied for each separate region
 
-CLEANaboriginal:  Prevalence of low income - The proportion or percentage of units whose income falls below a specified low-income line
+## CLEANaboriginal:  Prevalence of low income - The proportion or percentage of units whose income falls below a specified low-income line
                    = in low income/ (in low income + not in low income) * 100
                   Use indicator prevalence of low income for visualization
 
