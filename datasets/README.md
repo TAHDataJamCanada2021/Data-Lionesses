@@ -1,13 +1,8 @@
 # Datasets
 
-*A list of data sets, sources and challenges for the research project.*
+**Detailed Data**: Contains full sets of data extracted from sources used for visualizations and analysis.
 
-This would include:
-
-- API access to required TAH data
-- Access to other datasets (either through API or downloaded)
-- Statements on data quality issues, transformations needed
-- Container for new data generated for this research (ie through merging other data sets)
+**Preprocessed Data**: Contains cleaned data used by ML model for identifying high risk regions.
 
 2016 Canada Census data is used here. Sources:
 
