@@ -39,15 +39,8 @@ GitHub Limitations:
 
 Location: [/datasets](datasets)
 
-_A list of data sets, sources and challenges for the research project._
-This would include:
-
-- API access to required TAH data
-- Access to other datasets (either through API or downloaded)
-- Statements on data quality issues, transformations needed
-- Container for new data generated for this research (i.e. through merging other data sets)
-
 2016 Canada Census data is used here. Data was downloaded from the official site and relevant variables were extracted for regions of interest. Data was cleaned and formatted before using for modeling. The hierarchy of regions (e.g. Census subdivision, Census metropolitan areas) for which data is available varies among the datasets and therefore it was a challenge to find datasets with a matching system of regions for comparison. In certain cases, information for some regions was missing.
+
 **Sources**:
 
 Human Trafficking Incidents and Sexual Exploitation Incidents: 
