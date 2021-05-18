@@ -4,7 +4,7 @@
 
 **User Interface Code**
 
-The UI code is in the [ReportingGUI](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/project/ReportingGUI) folder and includes forms generated based on our model's result for the drivers to fill in and eventually for the report to be sent to the Police.
+The UI code, implemented in the Python 3.9 programming language, in conjunction with the Kivy framework, is in the [ReportingGUI](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/project/ReportingGUI) folder and includes forms generated based on our model's result for the drivers to fill in and eventually for the report to be sent to investigators. The UI is activated when the backend flags a suspicious trip. The UI asks whether one or more of their riders appear to potentially be a victim of human trafficking. 3-4 screens follow, prompting the driver to answer whether or not key indicators (as set out by the UNODC) were present during the trip. A final set of forms guides the user to answer questions about the persons involved, including description and names used. Submitting these answers generates a report, which, combined with location and time/date data from their phones, are compiled and sent to authorities and investigators.
 
 **Model Code**
 
