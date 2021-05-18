@@ -64,7 +64,7 @@ Location: [/project](project)
 
 - User Interface code
 
-the UI code is in the [ReportingGUI](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/project/ReportingGUI) folder and includes forms generated based on our model's result for the drivers to fill in and eventually for the report to be sent to the Police.
+the UI code is in the [ReportingGUI](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/project/ReportingGUI) folder and includes forms generated based on our model's result for the drivers to fill in and eventually for the report to be sent to relevant authorities. The UI is built in Python 3.9 and uses the Kivy framework.
 
 - Model code
 
