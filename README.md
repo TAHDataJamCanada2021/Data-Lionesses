@@ -111,7 +111,7 @@ Due to the time limitation, the model is focused on about 16 regions in Ontario 
 Additionally, the current model focuses on the trafficking incidents as a whole, and can be extended to particular domains such as sexploitaition, forced labour, child exploitation, etc. This could help in identifying more areas as high risk for each of the given domains, and the feedback form can be sent to the driver accordingly.
 
 
-## 7. Additional docs (Optional)
+## 7. Additional Docs
 
 Location: [/docs](docs)
 
