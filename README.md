@@ -86,8 +86,8 @@ The datatypes of each datast is verified and all features from each dataset is c
 Thus, we choose a linear model for predicting the trafficking incidents for a region, given its income status, umployment, and aboriginal income status data. We train the supervised model on 85% of the data and test the model on 15% of the given data. The results produced by the model has an root mean square error of 0.394 which is obtained by comparing the trafficking incidents predicted by the model with the actual trafficking incidents in the region. In the interest of time, a small dataset (about 16 rows) was taken for the prototype and hence the model can further be improved by increasing the size of the data. 
 
 The Linear model was also commpared to a Neural Network, which produced a root mean square error of 0.40. Since the size of the data is smaller and the features have a linear dependency on the labels, we choose a Linear Regression model for the purpose of the project. The results obtained by the Linear Regression model, along with its error rate is given below. (add image).
-
-
+<br>
+<br>
 - Future work
 
 Due to the time limitation, the model 
