@@ -2,7 +2,7 @@
 
 ## 1. Problem Statement
 
-Transport of victims is a major component of human trafficking. According to [Human-Trafficking Corridors in Canada by The Canadian Centre to End Human Trafficking](https://www.canadiancentretoendhumantrafficking.ca/wp-content/uploads/2021/02/Human-Trafficking-Corridors-in-Canada-Report.pdf), moving victims routinely aids traffickers from being detected by law enforcement and disorients victims and impedes them from seeking help. There is a lack of user-friendly reporting systems in place for those working in the transportation industry who are likely to see trafficking activity and a lack of methods to identify common trafficking routes. For example Uber which has an emergency alert system for passengers but not for drivers; drivers must rely on hotlines to report incidents. This is not ideal and verba information is easily lost.
+Transport of victims is a major component of human trafficking. According to [Human-Trafficking Corridors in Canada by The Canadian Centre to End Human Trafficking](https://www.canadiancentretoendhumantrafficking.ca/wp-content/uploads/2021/02/Human-Trafficking-Corridors-in-Canada-Report.pdf), moving victims routinely aids traffickers from being detected by law enforcement and disorients victims and impedes them from seeking help. There is a lack of user-friendly reporting systems in place for those working in the transportation industry who are likely to see trafficking activity and a lack of methods to identify common trafficking routes. For example Uber has an emergency alert system for passengers but not for drivers; drivers must rely on hotlines to report incidents. This is not ideal and verbal information is easily lost.
 
 ## 2. Objective
 
@@ -13,7 +13,7 @@ Domestic trafficking via ground transport is a serious problem in Canada. Our ob
 TRACKS: A Trafficking Reporting and Compilation frameworK System
 
 TRACKS has three components:
-1. Using factors which indicate vulnerability to trafficking (poverty, indigenous population, unemployment and education level) together with existing trafficking data as ground truth, we identify regions with higher risk of trafficking activity {ADD ABT MODEL!!}
+1. Using factors which indicate vulnerability to trafficking (poverty, indigenous population, unemployment and education level) together with existing trafficking data as ground truth, we identify regions with higher risk of trafficking activity.
 2. We use the geolocation data of the driver to identify their trip's region(s). If they are detected to be in a high risk region, a notification is sent to them to report trafficking suspicions via a short form based on [UNODC indicators of trafficking](https://www.unodc.org/pdf/HT_indicators_E_LOWRES.pdf). 
 3. Data from the form such as location and date/timestamps is anonymized, collected and analyzed in order to refine our prediction algorithm. Our aim is to collaborate with law enforcement so this data can be used to identify trafficking cases. There is limited data which can be used to identify trafficking routes, and this framework provides a means to collect data useful for this purpose.
 
