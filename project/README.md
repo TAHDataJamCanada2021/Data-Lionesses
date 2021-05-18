@@ -2,11 +2,11 @@
 - **Model** contains a Python notebook that includes data analysis and the machine learning model for the project.
 - **ReportingGUI** contains user interface code - see supplementary documentation for more details.
 
-- User Interface code
+**User Interface Code**
 
 The UI code is in the [ReportingGUI](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/project/ReportingGUI) folder and includes forms generated based on our model's result for the drivers to fill in and eventually for the report to be sent to the Police.
 
-- Model code
+**Model Code**
 
 The model code is implemented on a Python Notebook which can be found at [Model](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/project/Model/Data_Lionesses_Model.ipynb). The notebook includes data analysis, exploration and model builing for the project. The data used for the model is preprocessed and cleaned according to the project requirements. The steps taken for data preprocessing are elaborated in [Data Preprocessing](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/datasets/Preprocessed%20Data/README.md).
 
