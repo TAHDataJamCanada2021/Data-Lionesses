@@ -1,5 +1,5 @@
 
-# Additional docs (Optional)
+# Additional Docs
 
 - PowerPoint presentation
 - *TRACKS Use Case Diagram.png* describes how users interact with various components of the system.
