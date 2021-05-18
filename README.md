@@ -10,7 +10,7 @@ Domestic trafficking via ground transport is a serious problem in Canada. Our ob
 
 ## 3. Solution/Data use case description
 
-TRACKS: A Trafficking Reporting and Compilation frameworK System
+TRACKS: Trafficking Reporting, Analysis, Compilation frameworK System
 
 TRACKS has three components:
 1. Using factors which indicate vulnerability to trafficking (poverty, indigenous population, unemployment and education level) together with existing trafficking data as ground truth, we identify regions with higher risk of trafficking activity.
