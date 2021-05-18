@@ -92,7 +92,7 @@ Thus, we choose a linear model for predicting the trafficking incidents for a re
 The Linear model was also commpared to a Neural Network, which produced a root mean square error of 0.40. Since the size of the data is smaller and the features have a linear dependency on the labels, we choose a Linear Regression model for the purpose of the project. The results obtained by the Linear Regression model, along with its error rate is given below. 
 <br>
 <br>
-<img src="project/Model/Results/Linear_Regression_Predictions.png" width="100" height="100">
+<img src="project/Model/Results/Linear_Regression_Predictions.png" width="50%" height="50%">
 <br>
 <br>
 Additinally, the code to fetch the driver's regioon based on their latitude/ longitude coordinates has also been included in the notebook. This code block can be used in real time to fetch the driver's region and send the form (developed in the User Interface code) to notify that the driver is entering into a high risk region and request for their feedback on if they were suspicious about the passengers.
