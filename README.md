@@ -84,7 +84,7 @@ The data used in the notebook is imported from the "Preprocessed data" folder. E
 The datatypes of each datast is verified and all features from each dataset is corelatted with the labels. The features that have the maximum correlation value, or the highest dependency on the label, are taken as input features for the model. We find that the features having the highest correaltion for the income data, education & employment data, aboriginal data are 'Low-income status - applicable', 'Unemployed', and 'Aboriginal Low-income status - applicable' respectively for each dataset. Further, we also find that these features are linearly dependent on the labels (trafficking/ sexploitaiton incidents). The linearity is shown by plotting each feature against the labels on a graph.
 <br>
 <br>
-<img src="project/Model/Results/Feature_Linearity.png" width="100%" height="100%">
+<img src="project/Model/Results/Feature_Linearity.png" width="50%" height="50%">
 <br>
 <br>
 Thus, we choose a linear model for predicting the trafficking incidents for a region, given its income status, umployment, and aboriginal income status data. We train the supervised model on 85% of the data and test the model on 15% of the given data. The results produced by the model has an root mean square error of 0.394 which is obtained by comparing the trafficking incidents predicted by the model with the actual trafficking incidents in the region. In the interest of time, a small dataset (about 16 rows) was taken for the prototype and hence the model can further be improved by increasing the size of the data. 
