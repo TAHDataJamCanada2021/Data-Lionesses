@@ -69,8 +69,7 @@ Detailed Record of Uber Trips: https://www.kaggle.com/fivethirtyeight/uber-picku
 
 Location: [/project](project)
 
-[ML Model](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/project/Model)
-The project code is implemented on a Python Notebook which can be found at [/project/Model](Model) . The notebook includes data analysis, exploration and model builing for the project. 
+The project code is implemented on a Python Notebook which can be found at [Model](https://github.com/TAHDataJamCanada2021/Data-Lionesses/tree/main/project/Model/Data_Lionesses_Model.ipynb). The notebook includes data analysis, exploration and model builing for the project. 
 
 
 The model code is in project/model folder.
