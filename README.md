@@ -25,13 +25,8 @@ In this proof of concept, we used data for regions in Ontario for which data on 
 
 ## 4. Pitch
 
-_A pitch of maximum 4 minutes._d
-
-Example location: [link to video](https://www.youtube.com/watch?v=xUcB90b2HMs)
-
-GitHub Limitations:
- - 100MB per file
- - 10GB per repository
+Our pitch can be found here:
+ [link to video](https://youtu.be/uyt09UPmrag)
 
 ## 5. Datasets
 
